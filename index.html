@@ -10,23 +10,31 @@
 
      .hero {
     width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9; /* Matches your design ratio */
-    background-image: url('Hero.png'); /* Use your new filename here */
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 56.25vw; /* This forces the 16:9 ratio so the image appears */
+    background-image: url('Hero.png');
+    background-size: cover;
     background-position: center;
-    border-bottom: 5px solid #ffcc00;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #ffcc00;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-.logo-container {
+#status-badge {
     position: absolute;
-    top: 5px; /* Pins the logo to the very top signboard area */
-    text-align: center;
-    width: 100%;
-    z-index: 10;
+    bottom: 10px; /* This puts the Open/Closed badge at the bottom of your image */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 12px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 20;
 }
-        
+/* --- END OF NEW SECTION --- */
         #status-badge { margin-top: 15px; display: inline-flex; align-items: center; gap: 8px; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; background: rgba(0,0,0,0.8); border: 1px solid #ffcc00; }
         .dot { height: 10px; width: 10px; border-radius: 50%; display: inline-block; }
         .open-dot { background-color: #25d366; box-shadow: 0 0 8px #25d366; }
@@ -203,6 +211,7 @@
     </script>
 </body>
 </html>
+
 
 
 
