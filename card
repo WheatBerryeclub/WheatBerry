@@ -43,12 +43,11 @@
         /* CATEGORY CARDS */
         .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 50px; }
         .card { background: #111; border-radius: 10px; overflow: hidden; border: 1px solid #333; text-align: center; padding-bottom: 20px; }
-      .card img {
+     .card img {
     width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-    background-color: #000000;
+    height: 250px; /* This keeps the height consistent for all cards */
+    object-fit: cover; /* This forces the image to fill the entire width */
+    display: block;
 }
         .card h3 { color: #ffcc00; padding: 15px; }
 
@@ -115,7 +114,7 @@
             <div class="card"><img src="Bakery.png"><h3>Manakish</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
             <div class="card"><img src="Salad.png"><h3>Healthy Food</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
             <div class="card"><img src="Snack.png"><h3>Burgers</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
-            <div class="card"><img src="placeholder.jpg"><h3>Sandwiches</h3><a href="#" class="btn">Order Now</a></div>
+            <div class="card"><img src="placeholder.jpg"><h3>Sandwiches</h3><a href="#" class="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
 <div class="card"><img src="placeholder.jpg"><h3>Pizza</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
 <div class="card"><img src="placeholder.jpg"><h3>Salads</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
 <div class="card"><img src="placeholder.jpg"><h3>Pastries</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
@@ -241,6 +240,7 @@
                 dot.className = "dot closed-dot";
             }
         }
+
 
 
 
