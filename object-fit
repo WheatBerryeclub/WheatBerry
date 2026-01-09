@@ -166,15 +166,14 @@
 
             <h2 class="section-title" style="margin-top: 50px;">Catering & Gatherings</h2>
 <div class="menu-grid">
-    <div class="card"><img src="placeholder.jpg"><h3>Arabic Bouchee</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Rustic Bouchee</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Mini Sandwiches</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Mini Viennese</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Gathering Combo</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Siyadiye</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Riz 3A Djej</h3><a href="#" class="btn">Order Now</a></div>
-    <div class="card"><img src="placeholder.jpg"><h3>Gigot</h3><a href="#" class="btn">Order Now</a></div>
-</div>
+    <div class="card"><img src="placeholder.jpg"><h3>Arabic Bouchee</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Rustic Bouchee</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Mini Sandwiches</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Mini Viennese</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Gathering Combo</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Siyadiye</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Riz 3A Djej</h3><a href="https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
+    <div class="card"><img src="placeholder.jpg"><h3>Gigot</h3><a href=""https://wa.me/9613454714" class="wa-btn">ORDER NOW</a></div>
 
         <div class="event-box">
             <div class="partnership-logos">
@@ -240,6 +239,7 @@
                 dot.className = "dot closed-dot";
             }
         }
+
 
 
 
