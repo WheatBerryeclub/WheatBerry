@@ -49,62 +49,40 @@
     object-fit: cover; /* This forces the image to fill the entire width */
     display: block;
 }
-        .card h3 { color: #ffcc00; padding: 15px; }
+        <section id="birthday" style="padding: 60px 20px; background-color: #ffffff; text-align: center;">
+    
+    <h2 style="color: #d35400; font-size: 2.2em; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 2px;">
+        The Ultimate Birthday Match
+    </h2>
+    <p style="color: #666; font-style: italic; margin-bottom: 40px;">
+        "Where the game meets the feast — Court, Coach, and Catering all in one place."
+    </p>
 
-        /* KITCHEN MENU SECTIONS */
-        .platter-box { background: #111; border: 1px solid #333; border-radius: 10px; padding: 25px; margin-bottom: 20px; }
-        .platter-box h4 { color: #ffcc00; margin-bottom: 15px; border-left: 4px solid #ffcc00; padding-left: 15px; font-size: 1.3rem; text-transform: uppercase; }
-        .platter-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
-        .platter-item { padding: 10px; border-bottom: 1px solid #222; font-size: 1rem; color: #ddd; }
-
-        <div style="background-color: #f4f4f4; padding: 40px 20px; border-radius: 15px; text-align: center;">
-    <h3 style="color: #d35400;">The Ultimate Team Birthday</h3>
-    <p>Everything from the first whistle to the final bite.</p>
-
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px;">
         
-        <div style="flex: 1; min-width: 250px;">
-            <strong>TAILORED PLATTERS</strong><br>
-            Custom menus for teams of all sizes.
+        <div style="background: #fff; border: 1px solid #eee; padding: 30px; border-radius: 15px; width: 280px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <div style="font-size: 45px; margin-bottom: 15px;">🛡️</div>
+            <h3 style="color: #2c3e50; margin-bottom: 15px;">The Rookie</h3>
+            <ul style="text-align: left; font-size: 0.95em; color: #555; line-height: 1.8; padding-left: 20px;">
+                <li>⚽ 1 Hour Court Rental</li>
+                <li>🥐 Mini-Manakish Platters</li>
+                <li>🥤 Fresh Juice Boxes</li>
+                <li>🪑 Reserved Team Table</li>
+            </ul>
         </div>
 
-        <div style="flex: 1; min-width: 250px;">
-            <strong>SUNDAY EVENTS</strong><br>
-            We open specifically for your private celebrations.
+        <div style="background: #fff; border: 2.5px solid #d35400; padding: 30px; border-radius: 15px; width: 280px; box-shadow: 0 10px 25px rgba(211, 84, 0, 0.15); position: relative;">
+            <span style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #d35400; color: #fff; padding: 4px 20px; border-radius: 25px; font-size: 12px; font-weight: bold; text-transform: uppercase;">Most Popular</span>
+            <div style="font-size: 45px; margin-bottom: 15px;">🌟</div>
+            <h3 style="color: #d35400; margin-bottom: 15px;">The All-Star</h3>
+            <ul style="text-align: left; font-size: 0.95em; color: #555; line-height: 1.8; padding-left: 20px;">
+                <li>⚽ 1 Hour Court Rental</li>
+                <li>🏃‍♂️ <b>Professional Coach</b></li>
+                <li>🌯 Wraps & Mini-Burgers</li>
+                <li>📜 Custom Match Menus</li>
+            </ul>
         </div>
-
-        <div style="flex: 1; min-width: 250px;">
-            <strong>COURT & COACH</strong><br>
-            We book the football court and provide pro coaches for the kids.
-        </div>
-
-    </div>
-
-    <div style="margin-top: 30px; border-top: 1px solid #ccc; padding-top: 20px;">
-        <h4 style="margin-bottom: 20px;">Choose Your Match Package:</h4>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-            <div style="background: white; padding: 15px; border-radius: 8px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <strong>THE ROOKIE</strong><br>
-                <small>Court + Mini-Manakish + Juice</small>
-            </div>
-            <div style="background: white; padding: 15px; border: 2px solid #d35400; border-radius: 8px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <strong>THE ALL-STAR</strong><br>
-                <small>Court + Coach + Wraps & Burgers</small>
-            </div>
-            <div style="background: white; padding: 15px; border-radius: 8px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <strong>THE CHAMPION</strong><br>
-                <small>Court + Coach + Full International Buffet</small>
-            </div>
-        </div>
-    </div>
-
-    <div style="margin-top: 30px;">
-        <a href="https://wa.me/9613454714?text=I%20want%20to%20book%20a%20Birthday%20Match%20Package!" 
-           style="background-color: #d35400; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">
-           BOOK HERE YOUR EVENTS
-        </a>
-    </div>
-</div>
+        
         /* DELIVERY BAR */
         .info-bar { background: #ffcc00; color: #000; padding: 30px; border-radius: 10px; text-align: center; margin-top: 40px; font-weight: bold; }
         .info-line { margin: 10px 0; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; }
@@ -279,6 +257,7 @@
                 dot.className = "dot closed-dot";
             }
         }
+
 
 
 
